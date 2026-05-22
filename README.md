@@ -4,6 +4,8 @@ TLDR: Use on customizable websites such as Hostinger and Wordpress to avoid brok
 OVERVIEW
 This code solves a common issue when embedding a Google Drive-hosted video inside a website builder like Hostinger: the video may display correctly on desktop, but look misaligned on mobile, lose its rounded-corner crop, or refuse to sit centered inside the visible frame. The solution uses a wrapper element to control the visible crop area and positions the embedded iframe so the video stays centered and visually consistent across screen sizes.
 
+This embed is designed to display a Google Drive-hosted video in a responsive, cropped frame with rounded corners. The wrapper controls the size and positioning of the video so it stays centered on desktop and mobile, but the interactive playback controls still depend on Google Drive’s embedded player, which can behave inconsistently on mobile browsers.
+
 WHAT THIS CODE DOES
 Creates a fixed aspect-ratio video box for a clean desktop layout.
 
