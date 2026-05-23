@@ -34,7 +34,7 @@ The file ID is everything between /d/ and /preview:
 
 1aBcDeFgHiJkLmNoPqRsTuVwXyZ
 
-In the code you will replace YOUR_FILE_ID with that exact string (two times in the same file).
+In the code you will replace YOUR_FILE_ID with that exact string (there are 2 placeholders in the file).
 
 ## WALKTHROUGH
 Open Google Drive, find your video, and remove all sharing restrictions (ie Anyone on the internet with the link can view).
