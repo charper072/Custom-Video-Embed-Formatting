@@ -99,7 +99,7 @@ Paste the code again and make sure the <script> ... </script> section is still t
 
 If Hostinger strips it every time, contact their support and ask how to add custom JavaScript on your plan.
 
-CODE REVIEW (WHAT EACH PART MEANS)
+## CODE REVIEW (WHAT EACH PART MEANS)
 video-shell is the outer box. It sets the maximum width, centers the embed on the page, rounds the corners, and clips anything that sticks out.
 
 video-poster is the clickable preview layer. It holds your preview image and the play button. Visitors see this first.
@@ -129,3 +129,5 @@ The mobile media query shifts the iframe upward on phones, which helps fix the o
 The preview image uses Google's thumbnail service (thumbnail?id=...). It is tied to the same file ID as your video, so you usually do not need a separate image file.
 
 This is best for situations where the video is stored in Google Drive and you want a polished embedded display without switching to a different hosting platform. It is especially useful when you need a responsive layout, rounded corners, a visible preview before play, and better mobile alignment while keeping the original Drive source.
+
+Please note that this fix does not bring all functionality to mobile users. Pause, Replays, and skip features are known to have issues on mobile devices.
